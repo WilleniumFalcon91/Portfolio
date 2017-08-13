@@ -1,18 +1,56 @@
+body {
+    display: inline-block;
+}
+
 li {
     display: inline;
     margin: 2em;
 }
+.navLeft li {
+    margin:-1rem;
+}
 
+/* .navbar {
+    float: right;
+} */
 .navbar {
+    height: 3rem;
+    border: 1px solid red;
+}
+
+.navLeft {
+    float: left;
+}
+.navRight {
     float: right;
 }
 
-h1 {
-    display: inline-block;
+/* h1 {
+    display: flex;
+} */
+.topContainer {
+    height: 350px;
+    border: 1px solid black;
+    text-align: center;
+}
+.mainText { 
+    margin-top: 125px;
+}
+.about {
+    height: 300px;
+    border: 1px solid black;
+}
+.about p {
+    margin: 50px;
 }
 
 .projects {
     display: inline-block;
+    height: 500px;
+    border: 1px solid black;
+}
+.projects p {
+    margin: 25px;
 }
 
 .skills, .contact {
