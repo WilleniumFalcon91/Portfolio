@@ -1,0 +1,22 @@
+li {
+    display: inline;
+    margin: 2em;
+}
+
+.navbar {
+    float: right;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.projects {
+    display: inline-block;
+}
+
+.skills, .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
