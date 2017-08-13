@@ -58,3 +58,6 @@ li {
     flex-wrap: wrap;
     justify-content: center;
 }
+h3 {
+    margin-left: 7.5px;
+}
