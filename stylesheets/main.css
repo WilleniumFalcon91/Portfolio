@@ -10,9 +10,7 @@ li {
     margin:-1rem;
 }
 
-/* .navbar {
-    float: right;
-} */
+
 .navbar {
     height: 3rem;
     border: 1px solid red;
@@ -20,25 +18,24 @@ li {
 
 .navLeft {
     float: left;
+    font-size: 24px;
+    margin-top: 10px;
 }
 .navRight {
     float: right;
 }
 
-/* h1 {
-    display: flex;
-} */
 .topContainer {
-    height: 350px;
+    height: 21.875rem;
     border: 1px solid black;
     text-align: center;
 }
 .mainText { 
-    margin-top: 125px;
+    margin-top: 7.813rem;
 }
 .about {
     height: 300px;
-    border: 1px solid black;
+    border: 1px solid blue;
 }
 .about p {
     margin: 50px;
@@ -46,11 +43,15 @@ li {
 
 .projects {
     display: inline-block;
-    height: 500px;
+    height: 38rem;
     border: 1px solid black;
 }
 .projects p {
-    margin: 25px;
+    margin: 1.5rem;
+}
+.project1, .project2, .project3, .project4 {
+    height: 9.375rem;
+    border: 1px solid green;
 }
 
 .skills, .contact {
@@ -58,6 +59,10 @@ li {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+h2 {
+    margin-left: .5rem;
+}
 h3 {
-    margin-left: 7.5px;
+    margin-left: 1rem;
 }
