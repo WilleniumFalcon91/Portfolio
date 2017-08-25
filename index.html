@@ -13,10 +13,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!--Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css"> -->
 
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+  <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"> -->
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
@@ -43,31 +43,32 @@
 			<!-- /.navbar-collapse -->
 		</div>
 		<!-- /.container-fluid -->
-	</nav>
+    </nav>
+    
+
 
 	<header>
-		<div class="header-content col-lg-12">
-			<div class="header-content-inner col-lg-6">
+        <div class="fullscreen-bg">
+            <video autoplay="autoplay" loop="loop" muted="muted" class="fullscreen-bg__video">
+                <source src="video/background.mp4" type="video/mp4">
+			</video>
+			<div class="videoText flexy">
 				<h1>William Elliott</h1>
 				<hr>
 				<h3>Full Stack Developer</h3>
-				<!-- <p>Fullstack Web Developer</p> -->
-				<!-- <a href="#about" class="btn btn-primary btn-xl page-scroll"><i class="fa fa-3x fa-angle-down"></i></a> -->
 			</div>
-			<div class="pic col-lg-6">
-				<img src="images/0-a-n99C4mZyOo51Cx.jpg">
-			</div>
-		</div>
+        </div>
+      
 	</header>
 
 	<section class="bg-primary" id="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<h2 class="section-heading">About Me</h2>
-					<hr class="light">
-					<p class="text-faded">I'm a native Atlantan and hail from the University of Georgia where I hold dual degrees in Public Relations and Philosophy. My passion for programming came about through curiousity and self-study. I turned hobby into habit by enrolling in DigitalCrafts 16 week Immersive Bootcamp. Now, it's a lifestyle. When i'm not building, you can find me keeping up with my blog, checking out new hiking trails, counting down the days until the return of Westworld and couch-side coaching my favorite teams with friends and family.</p>
-					<hr class="light">
+				<div class="col-lg-8 col-lg-offset-2 text-center aboutCenter">
+					<div class="pic col-lg-6">
+						<img src="images/0-a-n99C4mZyOo51Cx.jpg">
+					</div>
+					<p class="aboutText text-faded">A native Atlantan that hails from the University of Georgia, my passion for programming came about through curiousity and self-study. I turned hobby into habit by enrolling in DigitalCrafts' 16 week Immersive Bootcamp. When i'm not building, you can find me keeping up with my blog, checking out new hiking trails, counting down the days until the return of Westworld and couch-side coaching my favorite teams with friends and family.</p>
 				</div>
 			</div>
 		</div>
@@ -84,74 +85,74 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-html5-plain"></i>
 						<h3>HTML</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-css3-plain"></i>
 						<h3>CSS</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-javascript-plain"></i>
 						<h3>JavaScript</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-jquery-plain"></i>
 						<h3>jQuery</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-mongodb-plain"></i>
 						<h3>MongoDB</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-express-original"></i>
 						<h3>Express.js</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-react-original"></i>
 						<h3>React</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-nodejs-plain"></i>
 						<h3>Node.js</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-python-plain"></i>
 						<h3>Python</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-mysql-plain"></i>
 						<!-- <i class="fa fa-4x fa-database text-primary sr-icons"></i> -->
 						<h3>MySQL</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-git-plain"></i>
 						<h3>Git</h3>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-6 text-center">
+				<div class="col-lg-3 col-md-3 col-xs-4 text-center">
 					<div class="service-box">
 						<i class="devicon-amazonwebservices-plain"></i>
 						<h3>AWS</h3>
@@ -169,26 +170,28 @@
 					<h2 class="section-heading">Projects</h2>
 					<hr class="primary">
 				</div>
-				<div class="project-list col-lg-12">
-					<div class="project text-center col-lg-6">
-						<a href='http://writeit.chrisboeckel.com'><img src="images/writeIT.png"></a>
-					</div>
-					<div class=col-lg-6>
-						<strong class='title'>Block10</strong><br/>
-						Cryptocurrency Stock Market WebApp 
-						<br/><i class="devicon-html5-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-css3-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-javascript-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-jquery-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-react-original"></i></i>&nbsp;&nbsp;&nbsp;<i class="devicon-mongodb-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-express-original"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-nodejs-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-mysql-plain"></i>
+				<div class="projectContainer">
+					<div class="project-list col-lg-12">
+						<div class="projectName col-lg-6">
+							<strong class='title'>Block10</strong><br/>
+							Cryptocurrency Stock Market WebApp 
+							<br/><i class="devicon-html5-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-css3-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-javascript-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-jquery-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-react-original"></i></i>&nbsp;&nbsp;&nbsp;<i class="devicon-mongodb-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-express-original"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-nodejs-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-mysql-plain"></i>
+						</div>
+						<div class="project text-center projectImg col-lg-6">
+							<a href='http://'><img src="images/"></a>
+						</div>
 					</div>
 				</div>
-				<div class="project-list col-lg-12">
-					<div class="project text-center col-lg-6">
-						<!-- <h4>Project 2</h4> -->
-						<!-- <a href="http://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> -->
-						<a href='http://classicmodels.chrisboeckel.com'><img src="images/ClassicModels.png"></a>
-					</div>
-					<div class=col-lg-6>
-						<strong class='title'>YaHerd?</strong><br/>
-						Music and Chat DesktopApp 
-						<br/><i class="devicon-html5-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-css3-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-javascript-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-jquery-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-react-original"></i></i>&nbsp;&nbsp;&nbsp;<i class="devicon-mongodb-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-express-original"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-nodejs-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-mysql-plain"></i>
+				<div class="projectContainer">
+					<div class="project-list col-lg-12">
+						<div class="projectName col-lg-6">
+							<strong class='title'>YaHerd?</strong><br/>
+							Music and Chat DesktopApp 
+							<br/><i class="devicon-html5-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-css3-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-javascript-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-jquery-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-react-original"></i></i>&nbsp;&nbsp;&nbsp;<i class="devicon-mongodb-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-express-original"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-nodejs-plain"></i>&nbsp;&nbsp;&nbsp;<i class="devicon-mysql-plain"></i>
+						</div>
+						<div class="project text-center projectImg col-lg-6">
+							<a href='http://'><img src="images/"></a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -216,17 +219,21 @@
 					<!-- <p>Connect with me here</p> -->
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<a href="https://www.linkedin.com/in/" target="_blank">
+					<a href="https://www.linkedin.com/in/williamclarkelliott/" target="_blank">
 						<i class="fa fa-linkedin-square fa-3x sr-contact"></i>
-						linkedin
+						LinkedIn
 					</a>
-					<a href="https://github.com" target="_blank">
+					<a href="https://github.com/WilleniumFalcon91" target="_blank">
 						<i class="fa fa-github-square fa-3x sr-contact"></i>
-						github
+						Github
+					</a>
+					<a href="https://medium.com/@williamelliott_92702" target="_blank">
+						<i class="fa fa-github-square fa-3x sr-contact"></i>
+						Blog
 					</a>
 					<a href="images/" target="_blank">
 						<i class="fa fa-file-pdf-o fa-3x sr-contact"></i>
-						resume
+						Resume
 					</a>
 				</div>
 				<br>
@@ -236,7 +243,7 @@
     <!-- Footer -->
 	<footer>
 		<div class="container text-center">
-			<p>Copyright &copy; 2017</p>
+			<p>Coded With ♥️ Copyright &copy; 2017</p>
 		</div>
 	</footer>
 
