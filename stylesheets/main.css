@@ -72,7 +72,7 @@ aside {
 }
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: #141e30;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -133,7 +133,7 @@ aside {
   }
   .navbar-default.affix {
     background-color: #111118;
-    border-color: rgba(34, 34, 34, 0.05);
+    border-color: #141e30;
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: royalblue;
@@ -403,6 +403,10 @@ section .project{
 
 .projectImg {
     float: right;
+}
+
+.contactIcons {
+  margin: 0 2%;
 }
 
 
