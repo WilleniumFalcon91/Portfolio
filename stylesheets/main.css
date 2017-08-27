@@ -30,12 +30,12 @@ h1, h2, h3, h4, h5, h6, strong{
 
 h1 {
     margin-top: 1rem;
-    color: lightgray;
+    color: 	#E0E0E0;
     font-size: 5rem;
 }
 
 h3 {
-    color: lightgray;
+    color: #E0E0E0; 
     font-size: 3rem;
 }
 
@@ -71,15 +71,15 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: white;
-  border-color: #141e30;
+  background-color: transparent;
+  /* border-color: #141e30; */
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: royalblue;
+  color: lightgray;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -198,10 +198,29 @@ header {
     z-index: 10;
 }
 
+nameText {
+  /* font-family: 'Volkhov', serif; */
+}
+
+.bioText {
+  font-family: 'Droid Sans', sans-serif;
+  color: #E0E0E0; 
+}
+
+.bioLink {
+  color: #E0E0E0; 
+}
+
 
 .section-heading {
-  margin-top: 0;
+  margin-top: 2%;
 }
+
+.skillz {
+  width: 100%;
+  background-color: #141e30;
+}
+
 .service-box {
   max-width: 400px;
    margin: 30px auto 0; 
@@ -223,7 +242,7 @@ header {
 }
 
 .service-box i{
-  font-size: 5em;
+  font-size: 4em;
   color: royalblue;
 }
 
@@ -312,9 +331,13 @@ header {
 
 }
 
+
+
 .pic img{
   border-radius: 50%;
   margin-right: 25%;
+  max-height: 200px;
+
 }
 
 img::selection {
@@ -334,10 +357,6 @@ section .project{
   margin-left: 10px;
 }
 
-.project-list{
-    display: flex;
-    justify-content: center;
-}
 
 .project{
   margin-bottom: 10px;
@@ -375,7 +394,6 @@ section .project{
 }
 
 .aboutText {
-    
     text-align: center;
     /* margin-right: -12%; */
     padding-top: 4%;
@@ -403,10 +421,18 @@ section .project{
 
 .projectImg {
     float: right;
+    
 }
 
+.contact {
+  margin-top: -2%;
+}
 .contactIcons {
   margin: 0 2%;
+}
+
+.heart {
+  color: #00D800; 
 }
 
 
