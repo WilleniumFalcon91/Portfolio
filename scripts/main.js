@@ -1,4 +1,4 @@
-! function(a) {
+! function (a) {
   "use strict";
   a("a.page-scroll").bind("click", function(b) {
     var c = a(this);

@@ -52,6 +52,11 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+.credit {
+  margin-top: 2%;
+  color: lightgray;
+}
 .bg-primary {
   background-color: #141e30;
 }
