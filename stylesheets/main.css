@@ -459,8 +459,9 @@ section .project{
   margin: 0 2%;
 }
 
-.heart {
-  color: #00D800; 
+.item img {
+  height: 100%;
+  width: 100%;
 }
 
 
