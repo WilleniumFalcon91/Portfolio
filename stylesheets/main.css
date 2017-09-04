@@ -720,6 +720,10 @@ footer {
     height: 200px;
     width: 300px;
   }
+
+  #portfolio {
+    margin-top: 5%;
+  }
   .projectName {
     margin: 2% auto;
     position: relative;
