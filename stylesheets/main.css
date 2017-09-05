@@ -780,7 +780,7 @@ footer {
   }
 
   .projectImg a {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 275px;
     width: 375px;
   }
