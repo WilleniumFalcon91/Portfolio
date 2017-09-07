@@ -22,7 +22,7 @@ a:hover,
 a:focus {
   font-weight: bold;
   text-decoration: none;
-  /* text-decoration: underline; */
+
 }
 
 h1, h2, h3, h4, h5, h6, strong{
@@ -89,7 +89,6 @@ aside {
 }
 .navbar-default {
   background-color: transparent;
-  /* border-color: #141e30; */
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -101,10 +100,7 @@ aside {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* .navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-  color: #a17Cff;
-} */
+
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
@@ -176,25 +172,13 @@ aside {
 header {
   position: relative;
   width: 100%;
-  /* min-height: auto; */
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-   background-image: url("../images/background.jpeg");  */
-  /* background-image: url('https://static.pexels.com/photos/90802/pexels-photo-90802.jpeg'); */
   text-align: center;
-  /* background-color: grey; */
+
 }
 
 .fullscreen-bg {
     position: relative;
-    /* top: 15.4rem; */
-    /* right: -1.5rem;  */
-    /* left: -1.8rem;  */
     overflow: hidden;
-    /* z-index: -100000; */
 }
 
 .fullscreen-bg__video {
@@ -234,10 +218,6 @@ header {
 .section-heading {
   margin-top: 2%;
 }
-
-/* .project-list {
-  display: block;
-} */
 
 .skillz {
   width: 100%;
@@ -347,16 +327,8 @@ header {
 
 .redux-icon{
   height: 100px;
-  /* color: royalblue;  */
-  
   -webkit-mask: url(images/redux.svg);
-  /* mask-image: url(images/redux.svg); */
-
-
 }
-
-
-
 
 .pic img{
   border-radius: 50%;
@@ -373,25 +345,18 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-/* body {
-  webkit-tap-highlight-color: #111118;
-} */
-
 
 section .project{
   margin-left: 10px;
 }
 
-
 .project{
   margin-bottom: 10px;
-  /* border: solid black 5px; */
 }
 
 .project img, projectImg{
   width: 100%;
   height: 100%;
-  /* margin: 5px; */
 }
 
 .project img:hover{
@@ -424,7 +389,6 @@ section .project{
 
 .aboutText {
   text-align: center;
-  /* margin-right: -12%; */
   padding-top: 4%;
   margin: 0 2%;
 }
@@ -452,12 +416,6 @@ section .project{
   display: inline;
 }
 
-/* .projectImg {
-    position: relative;
-    float: right;
-    
-} */
-
 .contact {
   margin-top: -2%;
 }
@@ -484,20 +442,8 @@ footer {
   }
   .pic {
     margin-left: 19%;
-    /* margin-top: 5%; */
   }
-  /* .projectImg {
-    float: left;
-  } */
-  /* .project-list {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 20.5%;
-  } */
-   /* .projectName {
-    margin-left: -25%;
-  }  */
+
   .videoText {
     margin-bottom: 20%;
   }
@@ -510,18 +456,8 @@ footer {
   }
   .pic {
     margin-left: 19%;
-    /* margin-top: 5%; */
   }
 
-  /* .project-list {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 20.5%;
-  }
-   .projectName {
-    margin-left: -25%;
-  }  */
   .videoText {
     margin-top: -5%;
   }
@@ -550,23 +486,12 @@ footer {
   }
   .pic {
     margin-left: 19%;
-    /* margin-top: 5%; */
   }
-  /* .projectImg {
-    float: left;
-  } */
-  /* .project-list {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 5.5%;
-  } */
+
   .projectName {
     margin-left: 0%;
   } 
-  /* .projectName {
-    margin-left: -25%;
-  } */
+
   .videoText {
     margin-bottom: 20%;
     margin-top: -7%;
@@ -590,23 +515,17 @@ footer {
   }
   .pic {
     margin-left: 19%;
-    /* margin-top: 5%; */
   }
-  /* .projectImg {
-    float: left;
-  } */
+
   .project-list {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* margin-left: 5.5%; */
   }
   .projectName {
     margin-left: 0%;
   } 
-  /* .projectName {
-    margin-left: -25%;
-  } */
+ 
   .videoText {
     margin-bottom: 20%;
     margin-top: -7%;
@@ -634,11 +553,8 @@ footer {
   }
   .pic {
     margin-left: 19%;
-    /* margin-top: 5%; */
   }
-  /* .projectImg {
-    float: left;
-  } */
+
   .project-list {
     display: flex;
     justify-content: center;
@@ -648,9 +564,7 @@ footer {
   .projectName {
     margin-left: 0%;
   } 
-  /* .projectName {
-    margin-left: -25%;
-  } */
+ 
   .videoText {
     margin-bottom: 20%;
     margin-top: -7%;
@@ -679,11 +593,8 @@ footer {
   }
   .pic {
     margin-left: 19%;
-    /* margin-top: 5%; */
   }
-  /* .projectImg {
-    float: left;
-  } */
+
   .project-list {
     display: flex;
     justify-content: center;
@@ -693,9 +604,7 @@ footer {
   .projectName {
     margin-left: 0%;
   } 
-  /* .projectName {
-    margin-left: -25%;
-  } */
+ 
   .videoText {
     margin-bottom: 20%;
     margin-top: -7%;
@@ -746,8 +655,6 @@ footer {
 
   .projectImgFlipped {
     float: left;
-
-    /* border: 1px solid red; */
   }
 
   .projectImgTop {
@@ -765,9 +672,6 @@ footer {
   }
 }
 @media (min-width: 700px) {
-
-  .projectContainer {
-  }
   .project-list {
     display: flex;
     width: 100%;
@@ -780,19 +684,16 @@ footer {
   }
 
   .projectImg a {
-    /* border: 1px solid blue; */
     height: 275px;
     width: 375px;
   }
 
   .projectImgFlipped {
     float: left;
-    /* border: 1px solid blue; */
     margin-left: 5%;
   }
 
   .projectName {
-    /* width: 200px; */
     margin-top: 0%;
   }
   .projectNameFlipped {
@@ -806,7 +707,6 @@ footer {
   }
 
   .project {
-    /* margin-right: -20%; */
     height: 300px;
     width: 500px;
   }
@@ -824,7 +724,6 @@ footer {
 @media (min-width: 992px) {
   .project-list {
     float: left;
-    /* border: 1px solid green; */
     width: 100%;
   } 
 
@@ -835,16 +734,13 @@ footer {
 
   .projectImgFlipped {
     float: left;
-    /* border: 1px solid blue; */
     margin-left: -5%;
   }
 
   .projectName {
-    /* border: 1px solid red; */
     margin-top: 0%;
   }
   .projectNameFlipped {
-    /* border: 1px solid red; */
     width: 400px;
     padding-top: 0;
     margin-right: 0%;
@@ -856,7 +752,6 @@ footer {
   }
 
   .project {
-    /* margin-right: -20%; */
     height: 300px;
     width: 500px;
   }
@@ -887,9 +782,7 @@ footer {
     float: left;
     width: 525px;
     height: 400px;
-    /* border: 1px solid blue; */
     margin-left: 0%;
-    /* margin-right: -60%; */
   }  
 
   .projectName {
@@ -902,12 +795,7 @@ footer {
     margin-left: -10%;
   }
 
-  .project-listFlipped {
-    /* margin-left: -10%; */
-  }
-
   .projectNameFlipped {
-   /* border: 1px solid blue; */
    float: right;
    margin-right: 0%;
   }
