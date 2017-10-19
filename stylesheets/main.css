@@ -792,7 +792,7 @@ footer {
     height: 300px;
   
   }
-    .project a, projectImgFlipped{
+  .project a, projectImgFlipped{
     float: left;
     width: 525px;
     height: 400px;
@@ -812,5 +812,8 @@ footer {
   .projectNameFlipped {
    float: right;
    margin-right: 0%;
+  }
+  .skillsSection {
+    margin-top: 8%;
   }
 }
