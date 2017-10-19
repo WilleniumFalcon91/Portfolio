@@ -655,6 +655,7 @@ footer {
 
   .projectImgFlipped {
     float: left;
+    margin-top: 10%;
   }
 
   .projectImgTop {
@@ -768,6 +769,19 @@ footer {
   .title {
     font-size: 1.2em;
   }
+  .projectContainer {
+    margin-bottom: 10%;
+  }
+  .bottomContainer {
+    margin-top: 10%;
+  }
+  .project-listFlipped {
+    margin-top: 10%;
+  }
+  firstDescription {
+    margin-top: 10%;
+  }
+
 }
 
 @media (min-width: 1200px) {
